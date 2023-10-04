@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffeb3b;
+  padding: 20px 10px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #212121;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #fbc02d;
+  color: #212121;
+}
+
+nav a.active {
+  background-color: #fbc02d;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 40px;
+}
